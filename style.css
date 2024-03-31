@@ -83,6 +83,7 @@
 }
 .cardapio {
     background-color: var(--cor-1);
+    padding-bottom: 10px;
 }
 .cardapio > h1 {
     font-family: Amatic SC;
@@ -94,12 +95,146 @@
 .tamanhos {
     background-color: var(--cor-3);
     width: 70%;
+    margin: auto;
+    border-radius: 15px;
+    border-top: 20px solid black;
+    border-left: 20px solid black;
+    border-right: 20px solid black;
 }
-.tamanho_lista {
+.tamanhos > h2 {
+    display: flex;
+    justify-content: center;
+    font-family: Bebas Neue;
+    font-size: 6.5em;
+    color: white;
+}
+.tamanhos_itens {
     display: flex;
     justify-content: space-around;
-    list-style: none;
+    padding: 50px;
+    padding-bottom: 5px;
 }
+.tam_300ml {
+    padding: 50px;
+}
+.tam_500ml {
+    border-left: 8px dashed var(--cor-4);
+    padding: 50px;
+}
+.tam_750ml {
+    border-left: 8px dashed var(--cor-4);
+    padding: 50px;
+}
+.tam_1000ml {
+    border-left: 8px dashed var(--cor-4);
+    padding: 50px;
+}
+.tam_preco {
+    font-family: Bebas Neue;
+    color: white;
+    text-align: center;
+    font-size: 3em;
+}
+.tam_ext {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    margin: auto;
+}
+.tam_ext > p {
+    background-color: var(--cor-4);
+    font-family: Bebas Neue;
+    font-size: 1.4em;
+    display: block;
+    padding: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.outros_itens {
+    margin-top: 10px;
+}
+.acompanhamento {
+    background-color: var(--cor-3);
+    font-family: Bebas Neue;
+    width: 25vw;
+    margin-left: 100px;
+    font-size: 2em;
+    padding: 25px;
+    padding-top: 5px;
+    border-radius: 15px;
+}
+.acompanhamento > h3 {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+.acompanhamento_lista {
+    background-color: var(--cor-2);
+    padding-left: 45px;
+    padding-top: 5px;
+    border-radius: 15px;
+    font-size: 1em;
+    color: white;
+}
+.caldas {
+    background-color: var(--cor-3);
+    margin-top: 5px;
+    font-family: Bebas Neue;
+    width: 25vw;
+    margin-left: 100px;
+    font-size: 2em;
+    padding: 25px;
+    padding-top: 5px;
+    border-radius: 15px;
+}
+.caldas > h3 {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+.caldas_lista {
+    background-color: var(--cor-2);
+    padding-left: 45px;
+    padding-top: 5px;
+    border-radius: 15px;
+    font-size: 1em;
+    color: white;
+}
+.extras {
+    background-color: var(--cor-3);
+    margin-top: 5px;
+    font-family: Bebas Neue;
+    width: 25vw;
+    margin-left: 100px;
+    font-size: 2em;
+    padding: 25px;
+    padding-top: 5px;
+    border-radius: 15px;
+    padding-bottom: 10px;
+}
+.extras > h3 {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+.extras > p {
+    color: white;
+    text-align: end;
+}
+.extras_obs {
+    background-color: var(--cor-2);
+    padding-left: 45px;
+    padding-top: 5px;
+    border-radius: 15px;
+    font-size: 1em;
+    color: white;
+}
+.extras_ext {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 50px;
+}
+
 .contato {
     background-color: var(--cor-3);
     display: grid;
