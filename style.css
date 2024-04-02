@@ -114,6 +114,10 @@
     padding: 50px;
     padding-bottom: 5px;
 }
+.tamanho_itens {
+    min-width: 375px;
+    max-width: 1200px;
+}
 .tam_300ml {
     padding: 50px;
 }
@@ -128,6 +132,10 @@
 .tam_1000ml {
     border-left: 8px dashed var(--cor-4);
     padding: 50px;
+}
+.tam_300ml .tam_500ml .tam_750ml .tam_1000ml {
+    /* min-width: 375px; */
+    /* max-width: 1200px; */
 }
 .tam_preco {
     font-family: Bebas Neue;
